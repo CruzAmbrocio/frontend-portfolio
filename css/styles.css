@@ -3,14 +3,6 @@ body {
     margin: 20px 60px 60px 60px;
 }
 
-.featured{
-    font-family: arial;
-    font-size: 23px;
-    color: #8f8fa4;
-    font-weight: bold;
-
-}
-
 .logo{
     display: inline-block;
     height: 80px;
@@ -18,6 +10,12 @@ body {
     text-align: left;
 }
 
+.name{
+    display: inline-block;
+    float:right;
+    height: 90px;
+    width: 280px;
+}
 .student{
     font-family: arial;
     font-size: 25px;
@@ -43,31 +41,40 @@ body {
     height: 20px
 }
 
-.name{
-    display: inline-block;
-    float:right;
-    height: 90px;
-    width: 280px;
+.featured{
+    font-family: arial;
+    font-size: 23px;
+    color: #8f8fa4;
+    font-weight: bold;
 }
 
 .blue{
     display: inline-block;
     height: 350px;
-    width: 600px;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
     background-color: #00abff;
     text-align: center;
-    color: #00abff;
     margin:0px;
 }
 
 .cog{
     display: inline-block;
+    font-size: 300%;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 150px 5px 5px 5px;
+    width: 300px;
+}
+
+.port{
+    display: inline-block;
     font-size: 50px;
     text-decoration: none;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    margin:60px 5px 5px 60px;
+    margin: 100px 0px 0px 0px;
 }
 
 .search{
@@ -76,7 +83,17 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    margin:60px 60px 5px 5px;
+    margin:0px 60px 5px 5px;
+    width: 43%;
+}
+
+.search_smo{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin:0px 5px 5px 5px;
 }
 
 .box{
@@ -95,10 +112,107 @@ body {
     background-color: #c5c5c5;
     margin:0px 10px 10px 55px;
 }
+
 .botsearch{
     border-radius: 0px 5px 5px 0px;
     display: inline-block;
     height: 30px;
     width: 30px;
     margin:0px 60px 10px 73px;
+}
+
+.text{
+    display: inline-block;
+    float:left;
+    height: 90px;
+    width: 250px;
+    margin:0% 0% 0% 10%;
+}
+
+.name_left{
+    float:left;
+    font-family: arial;
+    font-size: 25px;
+    color: #5a5a5a;
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+    width: 250px;
+    height: 20px
+}
+
+.name2_left{
+    float:left;
+    font-family: arial;
+    font-size: 15px;
+    color: #00abff;
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+    width: 250px;
+    height: 20px
+}
+
+.name_right{
+    float:left;
+    font-family: arial;
+    font-size: 25px;
+    color: #5a5a5a;
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+    width: 250px;
+    height: 20px
+}
+
+.name2_right{
+    float:left;
+    font-family: arial;
+    font-size: 15px;
+    color: #00abff;
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+    width: 250px;
+    height: 20px
+}
+
+.violet{
+    float:right;
+    display: inline-block;
+    height: 350px;
+    width: 43%;
+    border-radius: 10px;
+    background-color: #cb1ccb;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+}
+
+.text2{
+    display: inline-block;
+    float:right;
+    height: 90px;
+    width: 250px;
+    margin:0% 10% 0% 0%;
+}
+
+.red{
+    display: inline-block;
+    height: 350px;
+    width: 43%;
+    border-radius: 10px;
+    background-color: #ff0000;
+    text-align: center;
+    margin:0px 60px 0px 0px;
+}
+
+.green{
+    float:right;
+    display: inline-block;
+    height: 350px;
+    width: 43%;
+    border-radius: 10px;
+    background-color: #76ff76;
+    text-align: center;
+    margin:0px 0px 0px 0px;
 }
