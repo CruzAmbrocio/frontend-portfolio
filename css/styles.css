@@ -1,20 +1,23 @@
+body {
+    display: block;
+    margin: 20px 60px 60px 60px;
+}
+
 .featured{
     font-family: arial;
     font-size: 23px;
     color: #8f8fa4;
     font-weight: bold;
-    display: inline;
+
 }
+
 .logo{
     display: inline-block;
     height: 80px;
     width: 375px;
     text-align: left;
 }
-body {
-    display: block;
-    margin: 27px;
-}
+
 .student{
     font-family: arial;
     font-size: 25px;
@@ -25,7 +28,6 @@ body {
     margin:1px 1px 1px 25px;
     width: 259px;
     height: 20px
-
 
 }
 .student2{
@@ -39,11 +41,64 @@ body {
     margin:1px;
     width: 173px;
     height: 20px
-
 }
+
 .name{
     display: inline-block;
     float:right;
     height: 90px;
     width: 280px;
+}
+
+.blue{
+    display: inline-block;
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: #00abff;
+    text-align: center;
+    color: #00abff;
+    margin:0px;
+}
+
+.cog{
+    display: inline-block;
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin:60px 5px 5px 60px;
+}
+
+.search{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin:60px 60px 5px 5px;
+}
+
+.box{
+    display: inline-block;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin:5px 60px 10px 80px;
+}
+
+.box2{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: #c5c5c5;
+    margin:0px 10px 10px 55px;
+}
+.botsearch{
+    border-radius: 0px 5px 5px 0px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin:0px 60px 10px 73px;
 }
