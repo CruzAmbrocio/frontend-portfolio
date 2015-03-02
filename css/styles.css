@@ -11,7 +11,6 @@ body {
 }
 
 .name{
-    display: inline-block;
     float:right;
     height: 90px;
     width: 280px;
@@ -26,15 +25,14 @@ body {
     margin:1px 1px 1px 25px;
     width: 259px;
     height: 20px
-
 }
+
 .student2{
     float:right;
     font-family: arial;
     font-size: 15px;
     color: #5a5a5a;
     font-weight: bold;
-    display: inline-block;
     text-align: left;
     margin:1px;
     width: 173px;
@@ -55,7 +53,6 @@ body {
     border-radius: 2%;
     background-color: #00abff;
     text-align: center;
-
 }
 
 .cog{
@@ -74,7 +71,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    margin: 20% 0% 0% 0%;
+    margin-top: 20%;
 }
 
 .search_smo{
@@ -83,7 +80,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    margin: 20% 0% 0% 0%;
+    margin-top: 20%;
 }
 
 .box{
@@ -100,30 +97,33 @@ body {
     height: 30px;
     width: 100px;
     background-color: #c5c5c5;
-    margin:0px 10px 10px 55px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    margin-left:55px;
 }
 
 .botsearch{
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 1px 5px 5px 1px;
     display: inline-block;
     height: 30px;
-    width: 30px;
-    margin:0px 60px 10px 73px;
+    width: 31px;
+    margin-right:60px;
+    margin-bottom: 10px;
+    margin-left:73px;
 }
 
 .text{
-    display: inline-block;
     float:left;
     height: 90px;
     width: 250px;
-    margin:0% 0% 0% 12%;
+    margin-left: 12%;
 }
+
 .text2{
-    display: inline-block;
     float:right;
     height: 90px;
     width: 250px;
-    margin:0% 13% 0% 0%;
+    margin-right: 13%;
 }
 
 .name_left{
@@ -131,7 +131,6 @@ body {
     font-family: arial;
     font-size: 150%;
     color: #5a5a5a;
-    display: inline-block;
     text-align: center;
     margin:10px;
     width: 250px;
@@ -143,7 +142,6 @@ body {
     font-family: arial;
     font-size: 90%;
     color: #00abff;
-    display: inline-block;
     text-align: center;
     margin:10px;
     width: 250px;
@@ -155,7 +153,6 @@ body {
     font-family: arial;
     font-size: 150%;
     color: #5a5a5a;
-    display: inline-block;
     text-align: center;
     margin:10px;
     width: 250px;
@@ -167,7 +164,6 @@ body {
     font-family: arial;
     font-size: 90%;
     color: #00abff;
-    display: inline-block;
     text-align: center;
     margin:10px;
     width: 250px;
@@ -176,13 +172,11 @@ body {
 
 .violet{
     float:right;
-    display: inline-block;
     height: 350px;
     width: 43%;
     border-radius: 2%;
     background-color: #cb1ccb;
     text-align: center;
-    margin:0px 0px 0px 0px;
 }
 
 .red{
@@ -192,38 +186,36 @@ body {
     border-radius: 2%;
     background-color: #ff0000;
     text-align: center;
-    margin:0px 60px 0px 0px;
+    margin-right: 60px;
 }
 
 .green{
     float:right;
-    display: inline-block;
     height: 350px;
     width: 43%;
     border-radius: 10px;
     background-color: #76ff76;
     text-align: center;
-    margin:0px 0px 0px 0px;
 }
-.ligth_blue{
+
+.purple{
     display: inline-block;
     height: 350px;
     width: 43%;
     border-radius: 10px;
     background-color: #670067;
     text-align: center;
-    margin:0px 0px 0px 0px
 }
+
 .orange{
     float:right;
-    display: inline-block;
     height: 350px;
     width: 43%;
     border-radius: 10px;
     background-color: #ff6500;
     text-align: center;
-    margin:0px 0px 0px 0px;
 }
+
 .gray{
     display: inline-block;
     height: 350px;
@@ -231,53 +223,48 @@ body {
     border-radius: 10px;
     background-color: #c5c5c5;
     text-align: center;
-    margin:0px 0px 0px 0px
+
 }
 
-.ligth{
+.sky_blue{
     float:right;
-    display: inline-block;
     height: 350px;
     width: 43%;
     border-radius: 10px;
     background-color: #00daff;
     text-align: center;
-    margin:0px 0px 0px 0px;
 }
 
 .by{
-    clear: both;
-    font-family: Helvetica;
-    font-size: 30px;
-    color: gray;
-    font-style: italic;
-    text-align: right;
-    text-decoration: none;
+    float:right;
+    font-family: arial;
+    font-size: 150%;
+    color: #5a5a5a;
 }
 
 .blue:hover{
-    background-color: #00d6ff;
+    background-color: #009ae6;
 }
 .violet:hover{
-    background-color: #e64de6;
+    background-color: #b519b5;
 }
- .red:hover{
-    background-color: #ff4d4d;
+.red:hover{
+    background-color: #cc0000;
 }
 .green:hover{
-    background-color: #a9ffa9;
+    background-color: #43ff43;
 }
-.ligth_blue:hover{
-    background-color: #9a009a;
+.purple:hover{
+    background-color: #4e004e;
 }
 .orange:hover{
-    background-color: #ff934d;
+    background-color: #e65b00;
 }
 .gray:hover{
-    background-color: #dfdfdf;
+    background-color: #b8b8b8;
 }
-.ligth:hover{
-    background-color: #00ffe4;
+.sky_blue:hover{
+    background-color: #00c4e6;
 }
 .name_left:hover{
     color:#0c0c0c;
@@ -292,5 +279,5 @@ body {
     color:#0c0c0c;
 }
 .by:hover {
-    color: #bbbbbb;
+    color: #0c0c0c;
 }
