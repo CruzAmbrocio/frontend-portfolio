@@ -15,6 +15,7 @@ body {
     height: 90px;
     width: 280px;
 }
+
 .student{
     font-family: arial;
     font-size: 25px;
@@ -30,12 +31,11 @@ body {
 .student2{
     float:right;
     font-family: arial;
-    font-size: 15px;
     color: #5a5a5a;
     font-weight: bold;
     text-align: left;
     margin:1px;
-    width: 173px;
+    width: 180px;
     height: 20px
 }
 
@@ -62,19 +62,10 @@ body {
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 23% 1% 1% 1%;
-    width: 100%;
+
 }
 
 .port{
-    display: inline-block;
-    font-size: 300%;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin-top: 20%;
-}
-
-.search_smo{
     display: inline-block;
     font-size: 125%;
     text-decoration: none;
@@ -126,10 +117,13 @@ body {
     margin-right: 13%;
 }
 
+.name_left,.name_right{
+    font-size: 150%;
+}
+
 .name_left{
     float:left;
     font-family: arial;
-    font-size: 150%;
     color: #5a5a5a;
     text-align: center;
     margin:10px;
@@ -140,7 +134,6 @@ body {
 .name2_left{
     float:left;
     font-family: arial;
-    font-size: 90%;
     color: #00abff;
     text-align: center;
     margin:10px;
@@ -151,7 +144,6 @@ body {
 .name_right{
     float:left;
     font-family: arial;
-    font-size: 150%;
     color: #5a5a5a;
     text-align: center;
     margin:10px;
@@ -162,7 +154,6 @@ body {
 .name2_right{
     float:left;
     font-family: arial;
-    font-size: 90%;
     color: #00abff;
     text-align: center;
     margin:10px;
@@ -171,7 +162,6 @@ body {
 }
 
 .violet{
-    float:right;
     height: 350px;
     width: 43%;
     border-radius: 2%;
@@ -190,7 +180,6 @@ body {
 }
 
 .green{
-    float:right;
     height: 350px;
     width: 43%;
     border-radius: 10px;
@@ -208,7 +197,6 @@ body {
 }
 
 .orange{
-    float:right;
     height: 350px;
     width: 43%;
     border-radius: 10px;
@@ -227,7 +215,6 @@ body {
 }
 
 .sky_blue{
-    float:right;
     height: 350px;
     width: 43%;
     border-radius: 10px;
@@ -236,10 +223,11 @@ body {
 }
 
 .by{
-    float:right;
     font-family: arial;
-    font-size: 150%;
     color: #5a5a5a;
+}
+.by,.violet,.green,.orange,.sky_blue{
+    float:right;
 }
 
 .blue:hover{
